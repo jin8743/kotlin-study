@@ -26,4 +26,10 @@ public class Lecture07Main {
             return null;
         }
     }
+
+    public static void printAll(String... strings) {
+        for (String str : strings) {
+            System.out.println(str);
+        }
+    }
 }
